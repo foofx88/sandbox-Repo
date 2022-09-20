@@ -1,4 +1,6 @@
-name = input('Enter your name:')
+first_name = input('Enter your First Name:')
 
-def hello(name):
-    print(f'Hello {name}')
+last_name = input('Enter your Last Name:')
+
+def hello(first_name:str, last_name:str=None):
+    print(f'Hello {first_name} {last_name}!')
