@@ -1,6 +1,6 @@
 first_name = input('Enter your First Name:')
 
-last_name = input('Enter your Last Name:')
+last_name = input('Enter your Last Name (Optional):')
 
 def hello(first_name:str=None, last_name:str=None):
     if not last_name:
